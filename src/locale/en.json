@@ -1,0 +1,35 @@
+{
+    "welcome": "Welcome to my portfolio,",
+    "intro":" My name is Roy EL HADDAD and I am a junior software enginner. I specialise in Fullstack development. I love to integrate new technologies. I currently have arround 2 years of expercience and activly adding to it with my apprenticeship. I have been working in Research and Devolopment for the majority of my experience. My profile is very technialy oriented and I am always looking for new challenges. Enjoy the tour !",
+    "locale":{
+        "chose": "Choose your language",
+        "FR":"French",
+        "EN":"English"
+    },
+    "professionalExp":{
+        "title": "Professional Experience",
+        "MotorKJ": {
+            "location": "Europe (international)",
+            "date": "May 2024 - August 2024 (3 months)",
+            "position": "Junior Fullstack Engineer ",
+            "description": "I was hired to continue on the project in order to go into production and implement the feedback recieved from the Pilot phase."
+        },
+        "MotorKI": {
+            "date": "Sept 2023 - March 2024 (8 months)",
+            "position": "Fullstack Engineer Intern",
+            "description": "I joined to R&D team in order to develop CallSpark a webapp build with php symfony and vue3 using a docker container exposed to the web with Ngrok. I started with the team from scratch till production. During this period, I implemented alot of interesting technologies such as openAI, ElevenLabs, Twilio, Kafka, Keycloak and many more."
+        },
+        "Soredi":{
+            "location": "Guyancourt, France",
+            "date": "May 2023 - August 2023 (4 months)",
+            "position": "Software Engineer Intern",
+            "description": "I developed a webapp using the M.E.R.N stack in order to communicate encrypted messages for underground gathering and a mysterious mystique."
+        },
+        "MBEDWORKS-IDLEWEISSE":{
+            "location": "Neuilly-sur-seinne, France",
+            "date": "May 2022 - August 2022 (4 months)",
+            "position": "Software Engineer Intern",
+            "description": "I worked on 2 web apps using php and javascript with a W.A.M.P configuration. The first one is a survay game about movies where the user has to pay to play and can withdraw gift cards. And the second is a webapp that links the entire medical staff with the patients and pharmacies using role based screens and privilages."
+        }
+    }
+}

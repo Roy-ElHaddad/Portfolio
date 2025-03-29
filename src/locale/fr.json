@@ -1,0 +1,35 @@
+{
+    "welcome": "Bienvenue sur mon portfolio,",
+    "intro": "Je m'appelle Roy EL HADDAD et je suis un jeune ingénieur en logiciel spécialisé dans le développement Fullstack. J'aime intégrer de nouvelles technologies. J'ai actuellement environ 2 ans d'expérience et je l'ajoute activement avec mon alternance (contrat de professionalisation). J'ai travaillé en Recherche et Développement pour la majorité de mon expérience. Mon profil est très orienté techniquement et je suis toujours à la recherche de nouveaux défis. Bonne visite !",
+    "locale":{
+        "chose": "Choisissez votre langue",
+        "FR":"Français",
+        "EN":"Anglais"
+    },
+    "professionalExp":{
+        "title": "Expérience professionnelle",
+        "MotorKJ": {
+            "location": "Europe (internationale)",
+            "date": "Mai 2024 - Août 2024 (3 mois)",
+            "position": "Junior Fullstack Engineer ",
+            "description": "J'ai été embauché pour continuer sur le projet passer en production et mettre en œuvre les retours reçus de la phase Pilote."
+        },
+        "MotorKI": {
+            "date": "Septembre 2023 - Mars 2024 (8 mois)",
+            "position": "Fullstack Engineer Stage",
+            "description": "J'ai rejoint l'équipe R&D pour développer CallSpark, une webapp construite avec php symfony et vue3 utilisant un conteneur docker exposé sur le web avec Ngrok. J'ai commencé avec l'équipe à partir de zéro jusqu'à la production. Pendant cette période, j'ai implémenté beaucoup de technologies intéressantes telles que openAI, ElevenLabs, Twilio, Kafka, Keycloak et bien d'autres."
+        },
+        "Soredi":{
+            "location": "Guyancourt, France",
+            "date": "Mai 2023 - Août 2023 (4 mois)",
+            "position": "Software Engineer Stage",
+            "description": "J'ai développé une webapp utilisant la pile M.E.R.N afin de communiquer des messages cryptés pour des rassemblements souterrains et mystérieux."
+        },
+        "MBEDWORKS-IDLEWEISSE":{
+            "location": "Neuilly-sur-seinne, France",
+            "date": "Mai 2022 - Août 2022 (4 mois)",
+            "position": "Software Engineer Stage",
+            "description": "J'ai travaillé sur 2 applications Web utilisant php et javascript avec une configuration W.A.M.P. La première est un jeu de survie sur les films où l'utilisateur doit payer pour jouer et peut retirer des cartes-cadeaux. Et la seconde est une webapp qui relie l'ensemble du personnel médical aux patients et aux pharmacies en utilisant des écrans et des privilèges basés sur les rôles."
+        }
+    }
+}
