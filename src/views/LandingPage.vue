@@ -1,18 +1,18 @@
 <template>
-  <div class="flex flex-col items-center justify-center min-h-screen p-20">
+  <div class="flex flex-col items-center justify-center min-h-screen p-20 text-center md:text-left">
     <div class="flex items-center w-full max-w-3xl">
       <div class="w-full">
-        <div class="flex flex-col items-start gap-5 md:flex-row">
+        <div class="flex flex-col items-center gap-5 md:flex-row md:items-start">
           <div class="absolute bottom-3 md:hidden">
-            <DotLottieVue :src="mobileAnimation" :loop="true" :autoplay="true" style="height: 100px; width: 100px;" class="!text-black bg-black rounded-full" />
+            <DotLottieVue :src="mobileAnimation" :loop="true" :autoplay="true" style="height: 50px; width: 50px;" class="!text-black bg-black rounded-full" />
           </div>
-            <div class="absolute hidden p-2 transform -translate-x-1/2 bg-gray-100 rounded-full md:block left-1/2 bottom-10">
+            <div class="absolute hidden p-2 transform -translate-x-1/2 bg-gray-100 rounded-full md:block left-1/2 bottom-7">
             <DotLottieVue :src="desktopAnimation" :loop="true" :autoplay="true" style="height: 50px; width: 50px;"  />
             </div>
           <img src="../assets/portrait.jpg" alt="Portrait" class="h-64 mb-5 rounded-lg md:h-72 md:w-42"/>
           <div class="gap-10 md:flex md:flex-col">
-            <h3 ref="welcomeText" class="text-xl font-bold text-blue-700 dark:text-rose-700 backdrop-blur-sm w-fit md:text-4xl"></h3>
-            <span>{{ t('intro') }}</span>
+            <h3 ref="welcomeText" class="text-xl font-bold text-blue-700 dark:text-rose-700 w-fit md:text-4xl"></h3>
+            <span class="text-sm md:text-lg">{{ t('intro') }}</span>
           </div>
         </div>
           

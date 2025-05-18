@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { useLocaleStore } from '@/stores/localeStore'
 import Select from 'primevue/select'
 import { ref, watch } from 'vue'

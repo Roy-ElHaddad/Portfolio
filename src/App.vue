@@ -14,10 +14,10 @@
 </template>
 
 <script setup lang="ts">
+import Dropdown from '@/components/Dropdown.vue';
+import LandingPage from '@/views/LandingPage.vue';
 import { useDark, useToggle } from '@vueuse/core';
 import { RouterView } from 'vue-router';
-import Dropdown from './components/Dropdown.vue';
-import LandingPage from './views/LandingPage.vue';
 
 const isDark = useDark()
 const toggleDark = useToggle(isDark)
