@@ -1,7 +1,8 @@
 <template>
   <div
-    class="w-fit mx-5 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+    class="p-6 my-5 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
   >
+    <h5 class="mb-2 text-2xl font-bold tracking-tight text-blue-700 dark:text-rose-600 ">Education</h5>
     <Accordion value="0">
       <AccordionPanel value="0">
         <AccordionHeader>

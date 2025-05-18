@@ -1,17 +1,15 @@
 <script setup lang="ts">
-import TimeLine from '@/components/TimeLine.vue'
-import UniAccordion from '@/components/UniAccordion.vue'
+import TimeLine from '@/components/TimeLine.vue';
+import UniAccordion from '@/components/UniAccordion.vue';
 </script>
 
 <template>
-  <div class="overflow-scroll bg-slate-200 dark:bg-slate-500">
-    <div class="h-screen flex items-center justify-center">
+  <div class="flex flex-col w-full h-full gap-5 p-5 justify-betweem bg-slate-200 dark:bg-slate-500 lg:flex-row ">
+    <div class="lg:w-1/2">
       <TimeLine />
     </div>
-    <div class="bg-slate-200 dark:bg-slate-500 h-screen">
-      <div class="h-screen flex items-center justify-center">
+    <div class="lg:w-1/2">
         <UniAccordion />
-      </div>
     </div>
   </div>
 </template>

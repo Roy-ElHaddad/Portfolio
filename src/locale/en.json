@@ -8,15 +8,10 @@
     },
     "professionalExp":{
         "title": "Professional Experience",
-        "MotorKJ": {
-            "location": "Europe (international)",
-            "date": "May 2024 - August 2024 (3 months)",
-            "position": "Junior Fullstack Engineer ",
-            "description": "I was hired to continue on the project in order to go into production and implement the feedback recieved from the Pilot phase."
-        },
         "MotorKI": {
-            "date": "Sept 2023 - March 2024 (8 months)",
-            "position": "Fullstack Engineer Intern",
+            "location": "Paris, Milan (Europe)",
+            "date": "Sept 2023 - August 2024 (11 months)",
+            "position": "Junior Fullstack Engineer ",
             "description": "I joined to R&D team in order to develop CallSpark a webapp build with php symfony and vue3 using a docker container exposed to the web with Ngrok. I started with the team from scratch till production. During this period, I implemented alot of interesting technologies such as openAI, ElevenLabs, Twilio, Kafka, Keycloak and many more."
         },
         "Soredi":{

@@ -1,10 +1,10 @@
 <template>
-  <div class="card flex justify-center">
+  <div class="flex justify-center card">
     <Select
       v-model="selectedLocale"
       :options="locales"
       optionLabel="code"
-      :placeholder="selectedLocale?.code ? selectedLocale?.code : $t('locale.chose')"
+      :placeholder="selectedLocale?.code ? selectedLocale?.code : t('locale.chose')"
     >
     </Select>
   </div>
