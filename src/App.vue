@@ -2,7 +2,7 @@
   <div class="absolute right-0 mt-4 mr-5">
     <div class="flex gap-3">
       <button @click="toggleDark()">
-        <span :class="isDark ? 'i-lucide-moon' : 'i-lucide-sun text-black'" class="w-6 h-6"></span>
+        <span :class="isDark ? 'pi pi-moon' : 'i-lucide-sun text-black'" class="w-6 h-6"></span>
       </button>
       <Dropdown />
     </div>

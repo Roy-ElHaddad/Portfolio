@@ -13,6 +13,12 @@
           <div class="gap-10 md:flex md:flex-col">
             <h3 ref="welcomeText" class="text-xl font-bold text-blue-700 dark:text-rose-700 w-fit md:text-4xl"></h3>
             <span class="text-sm md:text-lg">{{ t('intro') }}</span>
+            <div class="flex items-center w-full gap-5">
+              <i class="text-gray-500 transition duration-300 ease-in-out pi pi-github hover:text-gray-900 dark:text-white dark:hover:text-gray-400" @click="openGit"></i>
+              <i class="text-gray-500 transition duration-300 ease-in-out pi pi-linkedin hover:text-gray-900 dark:text-white dark:hover:text-gray-400" @click="openLinkedIn"></i>
+              <i class="text-gray-500 transition duration-300 ease-in-out pi pi-map-marker hover:text-gray-900 dark:text-white dark:hover:text-gray-400"><span class="px-2">Meudon, France</span></i>
+              <i class="text-gray-500 transition duration-300 ease-in-out pi pi-phone hover:text-gray-900 dark:text-white dark:hover:text-gray-400"><span class="px-2">06 95 06 88 96</span></i>
+            </div>
           </div>
         </div>
           
@@ -48,6 +54,14 @@ const downloadCV = () => {
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
+}
+
+const openGit = () => {
+  window.open('https://github.com/Roy-ElHaddad', '_blank')
+}
+
+const openLinkedIn = () => {
+  window.open('https://www.linkedin.com/in/roy-el-haddad-67217b223/', '_blank')
 }
 
 const typeWriterEffect = (element: HTMLElement, text: string, speed: number) => {
